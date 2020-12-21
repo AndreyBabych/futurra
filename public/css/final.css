@@ -1,0 +1,160 @@
+/*=========================== COLORS ======*/
+/*================ MEASUREMENT UNITS ======*/
+/* line 1, ../FuturraTestTask/public/scss/elements.scss */
+.button {
+  display: inline-block;
+  height: 52px;
+  padding: 0 46px;
+  background: #0285E4;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 52px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* line 4, ../FuturraTestTask/public/scss/elements.scss */
+.button:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 8, ../FuturraTestTask/public/scss/elements.scss */
+.navbar {
+  position: relative;
+}
+
+/* line 11, ../FuturraTestTask/public/scss/elements.scss */
+.navbar .button {
+  position: absolute;
+  top: 16px;
+  right: 50px;
+}
+
+/* line 16, ../FuturraTestTask/public/scss/elements.scss */
+.navbar .navbar-collapse {
+  padding-right: 150px;
+  padding-top: 10px;
+}
+
+/* line 20, ../FuturraTestTask/public/scss/elements.scss */
+.navbar .navbar-toggler {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  border: none !important;
+  border-color: #fff !important;
+  outline: none !important;
+}
+
+/* line 28, ../FuturraTestTask/public/scss/elements.scss */
+.navbar .nav-item {
+  font-size: 16px;
+  color: #000;
+}
+
+/* line 32, ../FuturraTestTask/public/scss/elements.scss */
+.navbar .nav-item a.nav-link {
+  padding: 0 25px;
+}
+
+/* line 37, ../FuturraTestTask/public/scss/elements.scss */
+h1 {
+  font-size: 54px;
+  font-weight: 700;
+  margin-top: 130px;
+}
+
+/* line 42, ../FuturraTestTask/public/scss/elements.scss */
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #5C5C5C;
+  margin-top: 40px;
+}
+
+/* line 48, ../FuturraTestTask/public/scss/elements.scss */
+.header-button {
+  margin-top: 95px;
+}
+
+/* line 50, ../FuturraTestTask/public/scss/elements.scss */
+.header-button .button {
+  padding: 0 80px;
+}
+
+/* line 1, ../FuturraTestTask/public/scss/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 6, ../FuturraTestTask/public/scss/main.scss */
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background: #fff;
+  min-width: 560px;
+}
+
+/* line 11, ../FuturraTestTask/public/scss/main.scss */
+.desktop-hide {
+  display: none;
+}
+
+/* line 14, ../FuturraTestTask/public/scss/main.scss */
+.mobile-hide {
+  display: inline-block;
+}
+
+/* line 17, ../FuturraTestTask/public/scss/main.scss */
+.main-holder {
+  max-width: 1236px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* line 22, ../FuturraTestTask/public/scss/main.scss */
+header {
+  min-height: 1262px;
+  background: url(../img/header.png) 50% 100% no-repeat;
+}
+
+/* line 26, ../FuturraTestTask/public/scss/main.scss */
+.features {
+  background: #E1F1FD;
+  min-height: 723px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 2, ../FuturraTestTask/public/scss/mobile.scss */
+  .desktop-hide {
+    display: inline-block;
+  }
+  /* line 5, ../FuturraTestTask/public/scss/mobile.scss */
+  .mobile-hide {
+    display: none;
+  }
+  /* line 8, ../FuturraTestTask/public/scss/mobile.scss */
+  header {
+    min-height: 1062px;
+    background: url(../img/header-mobile.png) 50% 100% no-repeat;
+    background-size: 100% auto;
+  }
+  /* line 14, ../FuturraTestTask/public/scss/mobile.scss */
+  .nav-item a.nav-link {
+    font-size: 26px;
+  }
+  /* line 18, ../FuturraTestTask/public/scss/mobile.scss */
+  h1 {
+    font-size: 40px;
+  }
+  /* line 21, ../FuturraTestTask/public/scss/mobile.scss */
+  .navbar-collapse {
+    position: absolute;
+    top: 100px;
+  }
+}
+
+/*# sourceMappingURL=final.css.map */

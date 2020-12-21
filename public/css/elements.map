@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "elements.css",
+	"sources": [
+		"../scss/elements.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

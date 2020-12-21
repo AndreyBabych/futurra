@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background: $white;
+    min-width: 560px;
+}
+.desktop-hide {
+    display: none;
+}
+.mobile-hide {
+    display: inline-block;
+}
+.main-holder {
+    max-width: 1236px;
+    margin: 0 auto;
+    background: $white;
+}
+header {
+    min-height: 1262px;
+    background: url(../img/header.png) 50% 100% no-repeat;
+}
+.features {
+    background: $light-blue;
+    min-height: 723px;
+}

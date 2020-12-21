@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss"
+	],
+	"sourcesContent": [
+		"* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\nbody {\r\n  font-family: 'Montserrat', sans-serif;\r\n  min-width: 950px;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;;AACD,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,wBAAwB;EACrC,SAAS,EAAE,KAAK;CACjB"
+}

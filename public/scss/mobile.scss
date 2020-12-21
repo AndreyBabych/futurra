@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+    .desktop-hide {
+        display: inline-block;
+    }
+    .mobile-hide {
+        display: none;
+    }
+    header {
+        min-height: 1062px;
+        background: url(../img/header-mobile.png) 50% 100% no-repeat;
+        background-size: 100% auto;
+    }
+    .nav-item {
+        a.nav-link {
+            font-size: 26px;
+        }
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 100px;
+    }
+}

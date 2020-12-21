@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mobile.css",
+	"sources": [
+		"../scss/mobile.scss"
+	],
+	"sourcesContent": [
+		"@media only screen and (max-width: 768px) {\r\n    .desktop-hide {\r\n        display: inline-block;\r\n    }\r\n    .mobile-hide {\r\n        display: none;\r\n    }\r\n    header {\r\n        min-height: 1062px;\r\n        background: url(../img/header-mobile.png) 50% 100% no-repeat;\r\n        background-size: 100% auto;\r\n    }\r\n    .nav-item {\r\n        a.nav-link {\r\n            font-size: 26px;\r\n        }\r\n    }\r\n    h1 {\r\n        font-size: 40px;\r\n    }\r\n    .navbar-collapse {\r\n        position: absolute;\r\n        top: 100px;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;;EACpC,AAAA,aAAa,CAAC;IACV,OAAO,EAAE,YAAY;GACxB;;EACD,AAAA,YAAY,CAAC;IACT,OAAO,EAAE,IAAI;GAChB;;EACD,AAAA,MAAM,CAAC;IACH,UAAU,EAAE,MAAM;IAClB,UAAU,EAAE,6BAA6B,CAAC,GAAG,CAAC,IAAI,CAAC,SAAS;IAC5D,eAAe,EAAE,SAAS;GAC7B;;EACD,AACI,SADK,CACL,CAAC,AAAA,SAAS,CAAC;IACP,SAAS,EAAE,IAAI;GAClB;;EAEL,AAAA,EAAE,CAAC;IACC,SAAS,EAAE,IAAI;GAClB;;EACD,AAAA,gBAAgB,CAAC;IACb,QAAQ,EAAE,QAAQ;IAClB,GAAG,EAAE,KAAK;GACb"
+}

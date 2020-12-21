@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mixins.css",
+	"sources": [
+		"../scss/mixins.scss"
+	],
+	"sourcesContent": [
+		"@mixin blue-button {\r\n    display: inline-block;\r\n    height: 52px;\r\n    padding: 0 46px;\r\n    background: $blue;\r\n    border-radius: 30px;\r\n    color: $white;\r\n    font-size: 18px;\r\n    line-height: 52px;\r\n    text-decoration: none;\r\n    white-space: nowrap;\r\n}"
+	],
+	"names": [],
+	"mappings": ""
+}

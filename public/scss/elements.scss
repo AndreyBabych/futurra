@@ -1,0 +1,71 @@
+.button {
+    @include blue-button;
+}
+.button:hover {
+    text-decoration: none;
+    color: $white;
+}
+.navbar {
+    position: relative;
+    
+    .button {
+        position: absolute;
+        top: 16px;
+        right: 50px;
+    }
+    .navbar-collapse {
+        padding-right: 150px;
+        padding-top: 10px;
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 24px;
+        right: 0;
+        border: none !important;
+        border-color: $white !important;
+        outline: none !important;
+    }
+    .nav-item {
+        font-size: 16px;
+        color: $black;
+        
+        a.nav-link {
+            padding: 0 25px;
+        }
+    }
+}
+h1 {
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: $grey;
+    margin-top: 40px;
+}
+.header-button {
+    margin-top: 95px;
+    .button {
+        padding: 0 80px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
