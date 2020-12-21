@@ -6,9 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="public/bootstrap-4/css/bootstrap.min.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="public/css/final.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="public/fontawesome/css/all.css" media="screen" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>FUTURRA</title>
 </head>
@@ -36,30 +36,64 @@
                         </li>
                     </ul>
                 </div>
-                <a href="#" class="button">Sign Up</a>
+                <a href="#" class="button" data-toggle="modal" data-target="#exampleModal">Sign Up</a>
             </nav>
             <h1 class="text-center">Lightning <br class="desktop-hide"/>fast prototyping</h1>
-            <h3 class="text-center">Most calendars are designed for teams.<br class="desktop-hide"/> Slate is designed for <br class="mobile-hide"/>
-freelancers who want a simple <br class="desktop-hide"/>way to plan their schedule.</h3>
+            <h3 class="text-center">Most calendars are designed for teams.<br class="desktop-hide"/> Slate is designed for <br class="mobile-hide"/>freelancers who want a simple <br class="desktop-hide"/>way to plan their schedule.</h3>
             <div class="header-button text-center">
-                <a href="#" class="button">Try For Free</a>
+                <div class="wrapper">
+                    <a href="#" class="button" data-toggle="modal" data-target="#exampleModal">Try For Free</a>
+                </div>
             </div>
-                
-                
-                
         </header>
+<!--
         <div class="features container-fluid">
             <div class="row">
                 <div class="col">
-                  1 из 2
-                </div>
-                <div class="col">
-                  2 из 2
                 </div>
             </div>
         </div>
-        <footer>
+-->
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <a class="logo" href="#"><img src="public/img/logo-white.svg"></a>
+                </div>
+                <div class="col-md-4 text-center text-nowrap soc-icons">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="col-md-4 text-nowrap text-lg-right">
+                    <p class="footer-line">Just type what's on your mind and we'll</p>
+                </div>
+            </div>
         </footer>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="public/bootstrap-4/js/bootstrap.min.js"></script>

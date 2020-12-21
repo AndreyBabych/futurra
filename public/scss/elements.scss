@@ -47,25 +47,41 @@ h3 {
 }
 .header-button {
     margin-top: 95px;
+    .wrapper {
+        display: inline-block;
+    }
     .button {
         padding: 0 80px;
+        animation: radial-pulse 1s infinite;
+    }
+    @keyframes radial-pulse {
+      0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
+      }
+
+      100% {
+        box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
+      }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer {
+    .logo {
+        display: inline-block;
+        margin-top: 43px;
+        margin-left: 40px;
+    }
+    .soc-icons a {
+        display: inline-block;
+        margin: 50px 20px 0;
+    }
+    .soc-icons i {
+        color: $white;
+        font-size: 40px;
+    }
+    .footer-line {
+        font-size: 13px;
+        color: $white;
+        margin-top: 65px;
+        margin-right: 45px;
+    }
+}

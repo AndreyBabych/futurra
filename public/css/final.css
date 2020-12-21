@@ -80,8 +80,50 @@ h3 {
 }
 
 /* line 50, ../FuturraTestTask/public/scss/elements.scss */
+.header-button .wrapper {
+  display: inline-block;
+}
+
+/* line 53, ../FuturraTestTask/public/scss/elements.scss */
 .header-button .button {
   padding: 0 80px;
+  animation: radial-pulse 1s infinite;
+}
+
+@keyframes radial-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
+  }
+}
+
+/* line 68, ../FuturraTestTask/public/scss/elements.scss */
+footer .logo {
+  display: inline-block;
+  margin-top: 43px;
+  margin-left: 40px;
+}
+
+/* line 73, ../FuturraTestTask/public/scss/elements.scss */
+footer .soc-icons a {
+  display: inline-block;
+  margin: 50px 20px 0;
+}
+
+/* line 77, ../FuturraTestTask/public/scss/elements.scss */
+footer .soc-icons i {
+  color: #fff;
+  font-size: 40px;
+}
+
+/* line 81, ../FuturraTestTask/public/scss/elements.scss */
+footer .footer-line {
+  font-size: 13px;
+  color: #fff;
+  margin-top: 65px;
+  margin-right: 45px;
 }
 
 /* line 1, ../FuturraTestTask/public/scss/main.scss */
@@ -127,6 +169,12 @@ header {
   min-height: 723px;
 }
 
+/* line 30, ../FuturraTestTask/public/scss/main.scss */
+footer {
+  min-height: 133px;
+  background: #112D57;
+}
+
 @media only screen and (max-width: 768px) {
   /* line 2, ../FuturraTestTask/public/scss/mobile.scss */
   .desktop-hide {
@@ -154,6 +202,22 @@ header {
   .navbar-collapse {
     position: absolute;
     top: 100px;
+  }
+  /* line 26, ../FuturraTestTask/public/scss/mobile.scss */
+  footer .col-md-4 {
+    text-align: center;
+  }
+  /* line 29, ../FuturraTestTask/public/scss/mobile.scss */
+  footer .logo {
+    margin: 43px 0 0;
+  }
+  /* line 32, ../FuturraTestTask/public/scss/mobile.scss */
+  footer .soc-icons a {
+    margin: 30px 20px 0;
+  }
+  /* line 35, ../FuturraTestTask/public/scss/mobile.scss */
+  footer .footer-line {
+    margin: 40px 0;
   }
 }
 

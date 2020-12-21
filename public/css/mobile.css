@@ -26,6 +26,22 @@
     position: absolute;
     top: 100px;
   }
+  /* line 26, ../FuturraTestTask/public/scss/mobile.scss */
+  footer .col-md-4 {
+    text-align: center;
+  }
+  /* line 29, ../FuturraTestTask/public/scss/mobile.scss */
+  footer .logo {
+    margin: 43px 0 0;
+  }
+  /* line 32, ../FuturraTestTask/public/scss/mobile.scss */
+  footer .soc-icons a {
+    margin: 30px 20px 0;
+  }
+  /* line 35, ../FuturraTestTask/public/scss/mobile.scss */
+  footer .footer-line {
+    margin: 40px 0;
+  }
 }
 
 /*# sourceMappingURL=mobile.css.map */

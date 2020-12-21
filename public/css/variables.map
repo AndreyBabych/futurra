@@ -5,8 +5,8 @@
 		"../scss/variables.scss"
 	],
 	"sourcesContent": [
-		"/*=========================== COLORS ======*/\r\n$white: #fff;\r\n$blue: #0285E4;\r\n$light-blue: #E1F1FD;\r\n$black: #000;\r\n$grey: #5C5C5C;\r\n/*================ MEASUREMENT UNITS ======*/\r\n$nunito: \"font-family: 'Nunito Sans', sans-serif;\";"
+		"/*=========================== COLORS ======*/\r\n$white: #fff;\r\n$blue: #0285E4;\r\n$light-blue: #E1F1FD;\r\n$dark-blue: #112D57;\r\n$black: #000;\r\n$grey: #5C5C5C;\r\n/*================ MEASUREMENT UNITS ======*/\r\n$nunito: \"font-family: 'Nunito Sans', sans-serif;\";"
 	],
 	"names": [],
-	"mappings": "AAAA,6CAA6C;AAM7C,6CAA6C"
+	"mappings": "AAAA,6CAA6C;AAO7C,6CAA6C"
 }
